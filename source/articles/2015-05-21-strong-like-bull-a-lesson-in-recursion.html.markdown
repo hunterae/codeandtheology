@@ -4,8 +4,6 @@ published_date: 2015-05-21
 tags: code
 ---
 
-<h3 style="text-align: center;"><img class="alignnone wp-image-64 size-full" src="/images/2015-05-21-strong-like-bull/photo-main.jpg" alt="strong-like-bull" width="234" height="254" /></h3>
-
 ### &tl;dr;
 
 I’ve created a new gem called [StrongLikeBull](https://github.com/hunterae/strong_like_bull) that suggests what parameters to permit in your strong parameters configuration based on what request parameters a controller action receives.

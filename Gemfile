@@ -6,6 +6,8 @@ gem "middleman", "~>3.3.12"
 gem "middleman-livereload", "~> 3.1.0"
 gem 'middleman-deploy', '~> 1.0'
 gem 'middleman-blog'
+gem "middleman-syntax"
 gem 'font-awesome-middleman', '~> 4.1.1'
 
+gem 'redcarpet'
 gem 'pry'

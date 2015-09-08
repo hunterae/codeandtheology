@@ -48,14 +48,20 @@ end
 # end
 
 set :css_dir, 'stylesheets'
-
 set :js_dir, 'javascripts'
-
 set :images_dir, 'images'
-
 set :fonts_dir,  "fonts"
+set :partials_dir, 'partials'
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true
 
-activate :blog
+activate :blog do |blog|
+  blog.sources = "articles/{year}-{month}-{day}-{title}.html"
+  blog.summary_separator = /READ_MORE/
+  blog.paginate = true
+  blog.taglink = "category/{tag}.html"
+  blog.tag_template = "tag.html"
+end
 
 # Build-specific configuration
 configure :build do
@@ -84,3 +90,5 @@ activate :deploy do |deploy|
   # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
   # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
+
+activate :syntax, :line_numbers => true

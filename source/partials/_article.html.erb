@@ -1,0 +1,24 @@
+<section class="post type-post status-publish format-standard hentrycf">
+  <section class="post-container">
+    <section class="post-title-wrap cf post-title-wrap-no-image">
+      <h2 class="post-title"><%= link_to article.title, article %></h2>
+      <p class="post-date">Posted on <%= article.data.respond_to?(:published_date) ? article.data.published_date.strftime('%B %d, %Y') : article.date.strftime('%B %d, %Y') %></p>
+    </section>
+
+    <article class="post-content cf">
+      <p>
+        <%= article.summary %>
+      </p>
+      <a href="<%= article.url %>" class="more-link">Read more</a>
+    </article>
+
+    <!--footer class="post-footer cf">
+      <section class="comments-link-container">
+        <a href="http://codeandtheology.com/2015/01/25/introduction/#comments" class="comments-link"><span class="fa fa-comment"></span> Leave Your Observation</a>
+      </section>
+
+      <section class="post-footer-right">
+      </section>
+    </footer-->
+  </section>
+</section>

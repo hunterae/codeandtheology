@@ -5,6 +5,11 @@ per_page: 10
 
 <section class="content-wrapper front-page-content front-page cf">
   <article class="content cf">
+    <header class="archive-title">
+      <h1 title="Category Archive: <%= tagname %>" class="page-title category-archive-title">
+        Category Archive: <%= tagname %>
+      </h1>
+    </header>
     <% page_articles.each_with_index do |article, i| %>
       <%= partial(:article, :locals => { article: article }) %>
     <% end %>

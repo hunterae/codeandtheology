@@ -78,7 +78,7 @@ configure :build do
   # activate :relative_assets
 
   # Or use a different image path
-  # set :http_prefix, "/codeandtheology"
+  set :http_prefix, "/"
 end
 
 activate :deploy do |deploy|
@@ -92,3 +92,7 @@ activate :deploy do |deploy|
 end
 
 activate :syntax, :line_numbers => true
+
+activate :disqus do |d|
+  d.shortname = 'codeandtheology'
+end

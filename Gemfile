@@ -7,6 +7,7 @@ gem "middleman-livereload", "~> 3.1.0"
 gem 'middleman-deploy', '~> 1.0'
 gem 'middleman-blog'
 gem "middleman-syntax"
+gem "middleman-disqus"
 gem 'font-awesome-middleman', '~> 4.1.1'
 
 gem 'redcarpet'

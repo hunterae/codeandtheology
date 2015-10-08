@@ -74,6 +74,10 @@
 
     <div class="in">
       <%= yield %>
+      <% if current_page.data.comments %>
+        <%= disqus %>
+        <%= disqus_count %>
+      <% end %>
     </div>
 
     <!-- Footer -->

@@ -2,6 +2,7 @@
 title: Introduction
 published_date: 2014-10-03
 tags: code, theology, life
+comments: true
 ---
 
 For several years, I've thought about maintaining a blog but never sat down long enough to make it happen. Sure, I'd manage to get a few posts written before I lost interest and moved on to something else. I'm kinda ADD like that.

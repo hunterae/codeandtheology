@@ -2,6 +2,7 @@
 title: How we hacked together a 4-night, 5-day Anniversary Trip to Miami for 40.92
 published_date: 2015-01-25
 tags: life
+comments: true
 ---
 
 I had a hard time figuring out how to categorize this blog post. While it does not quite fit into the coding category, the problem-solving, algorithmic-type approach I applied to making this work is a natural result of my computer science education. I'd like to share how I was able to utilize three different rewards cards to hack together a last minute trip to Miami this month, and only spend $640.92, which included four nights at a Marriott hotel, a five day car rental, a $138 anniversary dinner, $160 upgrades to seats with more leg room (since I am 6'4'' and Lauren was 8-months pregnant), a $63 Uber ride home from Denver Airport, and a $20 cash payment to the awesome kid next door who took care of our fur child Taco. Did we skimp the rest of the time during our trip? Not exactly... Let me explain. READ_MORE

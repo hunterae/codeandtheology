@@ -2,6 +2,7 @@
 title: Strong-like-bull - A Lesson in Recursion
 published_date: 2015-05-21
 tags: code
+comments: true
 ---
 
 ### &tl;dr;

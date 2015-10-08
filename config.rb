@@ -41,11 +41,15 @@ configure :development do
 end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def current_tag
+    defined?(tagname) && tagname
+  end
+
+  def article_date(article)
+    (article.data.published || article.date).strftime('%B %d, %Y')
+  end
+end
 
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'

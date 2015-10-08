@@ -1,6 +1,6 @@
 ---
 title: Introduction
-published_date: 2014-10-03
+published: 2014-10-03
 tags: code, theology, life
 comments: true
 ---

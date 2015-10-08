@@ -55,18 +55,12 @@
                        <%= "current_page_item" if !defined?(tagname) %>">
               <a href="/">Home</a>
             </li>
-            <li class="menu-item menu-item-type-taxonomy menu-item-object-category
-                       <%= "current_page_item" if defined?(tagname) && tagname == "code" %>">
-              <a href="<%= tag_path("code") %>">Code</a>
-            </li>
-            <li class="menu-item menu-item-type-taxonomy menu-item-object-category
-                       <%= "current_page_item" if defined?(tagname) && tagname == "theology" %>">
-              <a href="<%= tag_path("theology") %>">Theology</a>
-            </li>
-            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40
-                       <%= "current_page_item" if defined?(tagname) && tagname == "life" %>">
-              <a href="<%= tag_path("life") %>">Life</a>
-            </li>
+            <% data.tags.tags.each do |tag| %>
+              <li class="menu-item menu-item-type-taxonomy menu-item-object-category
+                         <%= "current_page_item" if tag == current_tag %>">
+                <a href="<%= tag_path(tag) %>"><%= tag %></a>
+              </li>
+            <% end %>
           </ul>
         </div>
       </nav>

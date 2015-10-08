@@ -2,7 +2,7 @@
   <section class="post-container">
     <section class="post-title-wrap cf post-title-wrap-no-image">
       <h2 class="post-title"><%= link_to article.title, article %></h2>
-      <p class="post-date">Posted on <%= article.data.respond_to?(:published_date) ? article.data.published_date.strftime('%B %d, %Y') : article.date.strftime('%B %d, %Y') %></p>
+      <p class="post-date">Posted on <%= article_date(article) %></p>
     </section>
 
     <article class="post-content cf">

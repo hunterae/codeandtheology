@@ -43,7 +43,7 @@ end
 # Methods defined in the helpers block are available in templates
 helpers do
   def current_tag
-    defined?(tagname) && tagname
+    current_page.metadata[:locals]["tagname"]
   end
 
   def article_date(article)

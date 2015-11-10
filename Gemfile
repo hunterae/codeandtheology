@@ -10,5 +10,6 @@ gem "middleman-syntax"
 gem "middleman-disqus"
 gem 'font-awesome-middleman', '~> 4.1.1'
 
+gem 'nokogiri'
 gem 'redcarpet'
 gem 'pry'

@@ -1,6 +1,5 @@
 ---
-title: How we hacked together a 4-night, 5-day Anniversary Trip to Miami for 40.92
-published: 2015-01-25
+title: How we hacked together a 4-night, 5-day Anniversary Trip to Miami for $640.92
 tags: life
 comments: true
 ---

@@ -1,5 +1,5 @@
 {
-  "url": "https://uk.linkedin.com/in/hunterae",
+  "url": "https://www.linkedin.com/in/hunterae",
   "connections": 160,
   "fullname": "Andrew Hunter",
   "location": "Boulder, Colorado",
@@ -35,38 +35,59 @@
       {
         "title": "Tech Lead / Software Engineer",
         "org": "LivingSocial",
-        "date": "November 2011 – March 2016 (4 years 5 months)",
+        "date": "November 2011 - March 2016 (4 years 5 months)",
         "location": "",
         "desc": "Technical lead for the Escapes application at LivingSocial.<br>Proposed multiple initiatives to save the company hundreds of thousands of dollars, as well as some to drastically increase revenue.<br>Helped build the Takeout &amp; Delivery product and various Shop and National applications"
       },
       {
         "title": "Senior Software Engineer",
         "org": "Captico LLC",
-        "date": "August 2010 – August 2011 (1 year 1 month)",
+        "date": "August 2010 - August 2011 (1 year 1 month)",
         "location": "",
         "desc": null
       },
       {
         "title": "Senior Software Engineer",
         "org": "PROTEUS Technologies",
-        "date": "February 2010 – June 2010 (5 months)",
+        "date": "February 2010 - June 2010 (5 months)",
         "location": "",
         "desc": null
       },
       {
         "title": "J2EE Developer",
         "org": "eTouch Technologies",
-        "date": "October 2009 – February 2010 (5 months)",
+        "date": "October 2009 - February 2010 (5 months)",
         "location": "Washington D.C. Metro Area",
         "desc": null
       },
       {
         "title": "Senior J2EE Developer",
         "org": "Dovel Technologies",
-        "date": "November 2008 – September 2009 (11 months)",
+        "date": "November 2008 - September 2009 (11 months)",
+        "location": "",
+        "desc": null
+      },
+      {
+        "title": "Senior J2EE Developer",
+        "org": "Nortel Government Solutions",
+        "date": "May 2006 - November 2008 (2 years 7 months)",
         "location": "",
         "desc": null
       }
     ]
-  }
+  },
+  "schools":[
+    {
+      "name": "Boston University",
+      "degree": "Master of Arts (MA)",
+      "major": "Computer Science",
+      "years": "2004 - 2005"
+    },
+    {
+      "name": "Boston University",
+      "degree": "Bachelor of Arts (B.A.)",
+      "major": "Computer Science",
+      "years": "2000 - 2004"
+    }
+  ]
 }

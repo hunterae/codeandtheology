@@ -55,10 +55,10 @@
                        <%= "current_page_item" if current_page.data.title == 'Home' %>">
               <a href="/">Home</a>
             </li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom
+            <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom
                        <%= "current_page_item" if current_page.data.title == 'About Me' %>">
               <%= link_to "About", "/about-me.html" %>
-            </li>
+            </li> -->
             <% data.tags.tags.each do |tag| %>
               <li class="menu-item menu-item-type-taxonomy menu-item-object-category
                          <%= "current_page_item" if tag == current_tag %>">
